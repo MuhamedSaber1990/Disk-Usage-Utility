@@ -7,7 +7,7 @@
 
 class DiskUsage {
 public:
-  DiskUsage(const std::string &path); // Constructor declaration
+  DiskUsage(const std::string &path); 
   void print_usage();
 
 private:
