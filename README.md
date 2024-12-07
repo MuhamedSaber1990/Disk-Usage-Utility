@@ -1,6 +1,6 @@
 # Disk Usage Utility
 
-This is a simple command-line tool that displays disk usage information for a given drive or path. The tool shows the total capacity, used space, and available space on the specified filesystem.
+This is a simple command-line tool for school purpose that displays disk usage information for a given drive or path. The tool shows the total capacity, used space, and available space on the specified filesystem.
 
 ## Features
 
