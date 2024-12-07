@@ -25,4 +25,4 @@ This is a simple command-line tool that displays disk usage information for a gi
 2. Navigate to the directory containing the source code and the `Makefile`.
 3. Run `make` to compile the program. For example:
    ```sh
-   make
+   makeall
