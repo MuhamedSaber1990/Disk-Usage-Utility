@@ -1,0 +1,7 @@
+disk_usage
+*.o
+*.exe
+*.out
+*.obj
+*.log
+build/
