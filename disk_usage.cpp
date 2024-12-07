@@ -5,18 +5,17 @@
 DiskUsage::DiskUsage(const std::string &path)
     : path_(path),
       space_info_(std::make_unique<std::filesystem::space_info>()) {
-  // Check if the path exists before trying to get space information
   if (!std::filesystem::exists(path_)) {
     std::cerr << "Error: The specified drive or path \"" << path_
               << "\" does not exist or is not accessible." << std::endl;
-    exit(1); // Exit with an error code
+    exit(1); 
   }
 
   try {
     *space_info_ = std::filesystem::space(path_);
   } catch (const std::filesystem::filesystem_error &e) {
     std::cerr << "Error getting disk usage: " << e.what() << std::endl;
-    exit(1); // Exit with an error code
+    exit(1); 
   }
 }
 
